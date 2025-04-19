@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 import argparse
 # 2314323 이하영 (중간고사 실습 연습 중)
+# git init 후 로컬에서 파일 1회 수정함. -> 깃허브에 커밋 반영 예정
 
 # construct the argument parse
 ap = argparse.ArgumentParser()
