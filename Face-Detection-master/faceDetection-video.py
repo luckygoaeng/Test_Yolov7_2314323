@@ -1,6 +1,7 @@
 # import packages
 import numpy as np
 import cv2
+# local에서 파일 수정 후 깃허브에 푸쉬하기 연습2
 
 # load SSD and ResNet network based caffe model for 300x300 dim imgs
 net = cv2.dnn.readNetFromCaffe("weights-prototxt.txt", "res_ssd_300Dim.caffeModel")
